@@ -5,13 +5,13 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class Csecontroller {
-	@GetMapping("/home")
+	@GetMapping("/adityacse")
 	public String rocks() {
-		return "Hi! this is Swetha";
+		return "Welcome to aditya cse";
 	}
 	
-	@GetMapping("/cse")
+	@GetMapping("/adityait")
 	public String rocks1() {
-		return "Welcome to Third year cse";
+		return "Welcome to aditya it";
 	}
 }
