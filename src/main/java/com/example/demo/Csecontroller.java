@@ -12,6 +12,6 @@ public class Csecontroller {
 	
 	@GetMapping("/adityait")
 	public String rocks1() {
-		return "Welcome to aditya it";
+		return "im swetha";
 	}
 }
