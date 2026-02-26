@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class Csecontroller {
 	@GetMapping("/adityacse")
 	public String rocks() {
-		return "Welcome to aditya cse";
+		return "Welcome to cse 3rd year";
 	}
 	
 	@GetMapping("/adityait")
